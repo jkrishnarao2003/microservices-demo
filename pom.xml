@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
     <artifactId>microservice-demo-main</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>microservice-demo-main</name>
     <modules>
@@ -14,7 +14,7 @@
         <connection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</connection>
         <developerConnection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</developerConnection>
         <url>https://github.com/jkrishnarao2003/microservices-demo.git</url>
-        <tag>microservice-demo-main-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
     <build>
     <plugins>
