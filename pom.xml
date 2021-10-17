@@ -11,4 +11,19 @@
         <module>department-service</module>
         <module>employee-service</module>
     </modules>
+    <scm>
+        <connection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</connection>
+        <developerConnection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</developerConnection>
+        <url>https://github.com/jkrishnarao2003/microservices-demo.git</url>
+        <tag>HEAD</tag>
+    </scm>
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>3.0.0-M4</version>
+        </plugin>
+    </plugins>
+    </build>
 </project>
