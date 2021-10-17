@@ -3,12 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
     <artifactId>microservice-demo-main</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>2.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>microservice-demo-main</name>
     <modules>
         <module>department-service</module>
         <module>employee-service</module>
+        <module>service-registry</module>
     </modules>
     <scm>
         <connection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</connection>

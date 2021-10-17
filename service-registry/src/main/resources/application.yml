@@ -1,0 +1,7 @@
+server:
+  port: 8761 #default Eureka server port is also 8761
+
+eureka:
+  client:
+    register-with-eureka: false #Server will never register again with itself
+    fetch-registry: false #Server don't need to fetch registry again

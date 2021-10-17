@@ -1,2 +1,15 @@
 server:
   port: 8551
+
+eureka:
+  client:
+    register-with-eureka: true #Service need to register with Eureka Server
+    fetch-registry: true #Service need to know what are all other services are available in the registry
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    instance:
+      hostname: localhost
+
+spring:
+  application:
+    name: department-service
