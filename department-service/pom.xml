@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>department-service</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <name>department-service</name>
     <description>Department Microservice</description>
     <properties>
@@ -56,7 +56,7 @@
     </build>
 
   <scm>
-    <tag>HEAD</tag>
+    <tag>{project.version}</tag>
     <connection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</connection>
     <developerConnection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</developerConnection>
     <url>https://github.com/jkrishnarao2003/microservices-demo.git</url>
