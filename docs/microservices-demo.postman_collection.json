@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "1b9ab9d5-3307-4ea4-be27-125e9ac725c5",
+		"name": "microservices-demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET All Departments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8551/department/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8551",
+					"path": [
+						"department",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Departments By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8551/department/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8551",
+					"path": [
+						"department",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Department",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get Employee By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employeeName\":\"employee1\",\r\n    \"departmentId\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8552/employee/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8552",
+					"path": [
+						"employee",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
