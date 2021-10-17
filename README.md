@@ -1,4 +1,4 @@
 # microservices-demo
 
 - Release Command
-  - ./mvnw release:prepare -DdryRun=true
+  -  ./mvnw release:clean release:perform -DskipTests=true
