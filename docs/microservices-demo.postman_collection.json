@@ -73,7 +73,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Create New Employee",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -97,6 +97,22 @@
 						"employee",
 						""
 					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eureka Service Registry Dashboard (Open in Browser)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8761",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8761"
 				}
 			},
 			"response": []
