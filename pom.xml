@@ -9,5 +9,6 @@
     <name>microservice-demo-main</name>
     <modules>
         <module>department-service</module>
+        <module>employee-service</module>
     </modules>
 </project>
