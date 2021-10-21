@@ -31,10 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-#Maven Release #
-pom.xml.releaseBackup
-
-
-#draw.io swap files
-**/*.png.2.crswap

@@ -34,3 +34,6 @@ hs_err_pid*
 
 #Maven Release #
 pom.xml.releaseBackup
+
+#draw.io swap files
+**/*.png.2.crswap

@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "GET All Departments",
+			"name": "GET All Departments V1 (Without API Gateway)",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -26,7 +26,126 @@
 			"response": []
 		},
 		{
-			"name": "GET Departments By ID",
+			"name": "GET Departments By ID V1 (Without API Gateway)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8551/department/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8551",
+					"path": [
+						"department",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Department V1 (Without API Gateway)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"departmentName\":\"dept1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8551/department/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8551",
+					"path": [
+						"department",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Employees V1(Without API Gateway)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8552/employee/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8552",
+					"path": [
+						"employee",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Employee By Id V1(Without API Gateway)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8552/employee/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8552",
+					"path": [
+						"employee",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Employee V1(Without API Gateway)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employeeName\":\"employee1\",\r\n    \"departmentId\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8552/employee/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8552",
+					"path": [
+						"employee",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET All Departments V3 (API Gateway)",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -46,34 +165,97 @@
 			"response": []
 		},
 		{
-			"name": "Create New Department",
+			"name": "GET Departments By ID V3 (API Gateway)",
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "http://localhost:8551/department/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8551",
+					"path": [
+						"department",
+						"1"
+					]
+				}
 			},
 			"response": []
 		},
 		{
-			"name": "Get All Employees",
+			"name": "Create New Department V3 (API Gateway)",
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
-				"url": null
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"departmentName\":\"dept1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8551/department/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8551",
+					"path": [
+						"department",
+						""
+					]
+				}
 			},
 			"response": []
 		},
 		{
-			"name": "Get Employee By Id",
+			"name": "Get All Employees V3 (API Gateway)",
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "http://localhost:8552/employee/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8552",
+					"path": [
+						"employee",
+						""
+					]
+				}
 			},
 			"response": []
 		},
 		{
-			"name": "Create New Employee",
+			"name": "Get Employee By Id V3 (PI Gateway)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8552/employee/1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8552",
+					"path": [
+						"employee",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Employee V3 (API Gateway)",
 			"request": {
 				"method": "POST",
 				"header": [],
