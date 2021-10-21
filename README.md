@@ -1,7 +1,7 @@
 # microservices-demo
 
 - Release Command
-  -  ./mvnw release:clean release:prepare release:perform  -e -DskipTests=true
+  -  ./mvnw  release:clean release:prepare release:perform  -e -Darguments=-DskipTests
 
 - Service Registry
   - http://localhost:8761
