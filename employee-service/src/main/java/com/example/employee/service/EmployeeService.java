@@ -31,8 +31,13 @@ public class EmployeeService {
         Employee employee = employeeRepository.findById(employeeId).get();
         employeeResponse.setEmployee(employee);
         /*DEPARTMENT-SERVICE is the name of service in Eureka Registry*/
+        //Without API Gateway
+//        Department department = restTemplate.
+//                getForObject("http://DEPARTMENT-SERVICE/department/"+employee.getDepartmentId(), Department.class);
+        //With API Gateway.
         Department department = restTemplate.
-                getForObject("http://DEPARTMENT-SERVICE/department/"+employee.getDepartmentId(), Department.class);
+                getForObject("http://localhost:8550/department/"+employee.getDepartmentId(), Department.class);
+
         employeeResponse.setDepartment(department);
         return employeeResponse;
     }

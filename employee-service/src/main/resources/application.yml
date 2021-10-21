@@ -1,6 +1,8 @@
+#Server Config
 server:
   port: 8552
 
+#Service Registry Config
 eureka:
   client:
     register-with-eureka: true #Service need to register with Eureka Server
@@ -10,6 +12,7 @@ eureka:
     instance:
       hostname: localhost
 
+#Application Metadata
 spring:
   application:
     name: employee-service
