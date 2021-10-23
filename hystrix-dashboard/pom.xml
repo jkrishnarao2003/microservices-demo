@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>hystrix-dashboard</artifactId>
-	<version>4.0.1-SNAPSHOT</version>
+	<version>4.0.1</version>
 	<name>hystrix-dashboard</name>
 	<description>hystrix-dashboard</description>
 	<properties>
@@ -55,7 +55,7 @@
 
 
   <scm>
-    <tag>HEAD</tag>
+    <tag>4.0.1</tag>
     <connection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</connection>
     <developerConnection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</developerConnection>
     <url>https://github.com/jkrishnarao2003/microservices-demo.git</url>
