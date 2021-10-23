@@ -24,7 +24,7 @@ public class DepartmentController {
     }
 
     @GetMapping("/{departmentId}")
-    public Department getDepartment(@PathVariable("departmentId") Long departmentId){
+    public Department getDepartment(@PathVariable("departmentId") Long departmentId) throws InterruptedException {
         return departmentService.findById(departmentId);
     }
 }
