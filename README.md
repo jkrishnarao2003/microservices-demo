@@ -16,7 +16,7 @@
   - http://localhost:8552
 
 - Hystrix Stream
-  - http://desktop-hmnavmf:8500/actuator/hystrix.stream
+  - http://localhost:8500/actuator/hystrix.stream
 
 - Hystrix Dashboard
   - http://localhost:8999/hystrix (Enter http://localhost:8500/actuator/hystrix.stream in the text field )
