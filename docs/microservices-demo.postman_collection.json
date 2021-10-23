@@ -75,7 +75,7 @@
 			"response": []
 		},
 		{
-			"name": "Get All Employees V1(Without API Gateway)",
+			"name": "Get All Employees V1 (Without API Gateway)",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -95,7 +95,7 @@
 			"response": []
 		},
 		{
-			"name": "Get Employee By Id V1(Without API Gateway)",
+			"name": "Get Employee By Id V1 (Without API Gateway)",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -116,7 +116,7 @@
 			"response": []
 		},
 		{
-			"name": "Create New Employee V1(Without API Gateway)",
+			"name": "Create New Employee V1 (Without API Gateway)",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -150,12 +150,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8551/department/",
+					"raw": "http://localhost:8550/department/",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8551",
+					"port": "8550",
 					"path": [
 						"department",
 						""
@@ -199,12 +199,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8551/department/",
+					"raw": "http://localhost:8550/department/",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8551",
+					"port": "8550",
 					"path": [
 						"department",
 						""
@@ -219,12 +219,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8552/employee/",
+					"raw": "http://localhost:8550/employee/",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8552",
+					"port": "8550",
 					"path": [
 						"employee",
 						""
@@ -239,12 +239,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8552/employee/1/",
+					"raw": "http://localhost:8550/employee/1/",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8552",
+					"port": "8550",
 					"path": [
 						"employee",
 						"1",
@@ -269,12 +269,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8552/employee/",
+					"raw": "http://localhost:8550/employee/",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8552",
+					"port": "8550",
 					"path": [
 						"employee",
 						""
@@ -295,6 +295,46 @@
 						"localhost"
 					],
 					"port": "8761"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET API Gateway Histrix Actuar Stream (Open in Browser only)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8551/department/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8551",
+					"path": [
+						"department",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Hystrix Dashboard (Open in Browser)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8551/department/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8551",
+					"path": [
+						"department",
+						""
+					]
 				}
 			},
 			"response": []
