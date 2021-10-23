@@ -5,7 +5,10 @@
 - Basic Version
 
 ## V2
-- Service Registry
+- Netflix Eureka Service Registry
 
 ## V3
-- API Gateway
+- Spring Cloud API Gateway
+
+## V4
+- Hystrix Circuit Breaker
