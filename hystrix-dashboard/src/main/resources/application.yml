@@ -7,15 +7,15 @@ spring:
     #Application Metadata
     name: hystrix-dashboard
 
-#Service Registry Config
-eureka:
-  client:
-    register-with-eureka: true #API-GATEWAY also need to register with Eureka Server
-    fetch-registry: true
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
-    instance:
-      hostname: localhost
+#Service Registry Client Config (Moved to Config Server accessed at bootstrap through bootstrap.yaml config)
+#eureka:
+ # client:
+  #  register-with-eureka: true #API-GATEWAY also need to register with Eureka Server
+   # fetch-registry: true
+    #serviceUrl:
+     # defaultZone: http://localhost:8761/eureka
+    #instance:
+     # hostname: localhost
 
 #Hystrix Dashboard Config
 hystrix:
