@@ -35,6 +35,7 @@
 			<!-- For loading config from config server on spring boot bootstrap -->
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+			<version>3.0.4</version>
 		</dependency>
 
 		<dependency>
