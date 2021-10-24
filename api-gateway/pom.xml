@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>api-gateway</artifactId>
-	<version>5.0.0</version>
+	<version>5.0.1-SNAPSHOT</version>
 	<name>api-gateway</name>
 	<description>api-gateway</description>
 
@@ -86,7 +86,7 @@
 
 
   <scm>
-    <tag>5.0.0</tag>
+    <tag>HEAD</tag>
     <connection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</connection>
     <developerConnection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</developerConnection>
     <url>https://github.com/jkrishnarao2003/microservices-demo.git</url>
