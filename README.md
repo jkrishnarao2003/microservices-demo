@@ -23,3 +23,8 @@
 
 - Cloud Config Server
   - http://localhost:8888/actuator/info
+
+  - Zipkin Server
+    - Download Zipkin Server jar file @ https://zipkin.io/pages/quickstart and run it as 
+    > java -jar zipkin.jar
+    - Then access the Zipkin Server @ http://localhost:9411/zipkin/

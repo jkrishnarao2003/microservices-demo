@@ -15,3 +15,7 @@
 
 ## V5
 - Config Server (Central management for configuration via GitHub, file system, etc)
+
+## V6
+- Distributed tracing through Zipkin and Sleuth
+- 
