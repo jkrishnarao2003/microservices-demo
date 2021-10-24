@@ -170,12 +170,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8551/department/1",
+					"raw": "http://localhost:8550/department/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8551",
+					"port": "8550",
 					"path": [
 						"department",
 						"1"
@@ -305,15 +305,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8551/department/",
+					"raw": "http://localhost:8500/actuator/hystrix.stream",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8551",
+					"port": "8500",
 					"path": [
-						"department",
-						""
+						"actuator",
+						"hystrix.stream"
 					]
 				}
 			},
@@ -325,15 +325,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8551/department/",
+					"raw": "http://localhost:8999/hystrix",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8551",
+					"port": "8999",
 					"path": [
-						"department",
-						""
+						"hystrix"
 					]
 				}
 			},

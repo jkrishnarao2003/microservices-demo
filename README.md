@@ -21,3 +21,5 @@
 - Hystrix Dashboard
   - http://localhost:8999/hystrix (Enter http://localhost:8500/actuator/hystrix.stream in the text field )
 
+- Cloud Config Server
+  - http://localhost:8888/actuator/info

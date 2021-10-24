@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
     <artifactId>microservice-demo-main</artifactId>
-    <version>4.0.2-SNAPSHOT</version>
+    <version>5.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>microservice-demo-main</name>
     <modules>
@@ -12,6 +12,7 @@
         <module>service-registry</module>
         <module>api-gateway</module>
         <module>hystrix-dashboard</module>
+        <module>config-server</module>
     </modules>
     <scm>
         <connection>scm:git:https://github.com/jkrishnarao2003/microservices-demo.git</connection>

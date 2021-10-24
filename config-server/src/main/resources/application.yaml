@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        native:
+          searchLocations: file:///D:/workspace_idea/microservices-demo/common-config
+        #git:
+         # uri: https://github.com/jkrishnarao2003/microservices-demo/
+          #searchPaths: common-config
+          #clone-on-start: true
+  profiles:
+    active: native

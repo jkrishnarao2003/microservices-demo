@@ -12,3 +12,6 @@
 
 ## V4
 - Hystrix Circuit Breaker
+
+## V5
+- Config Server (Central management for configuration via GitHub, file system, etc)

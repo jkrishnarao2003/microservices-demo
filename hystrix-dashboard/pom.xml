@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>hystrix-dashboard</artifactId>
-	<version>4.0.2-SNAPSHOT</version>
+	<version>5.0.1-SNAPSHOT</version>
 	<name>hystrix-dashboard</name>
 	<description>hystrix-dashboard</description>
 	<properties>
@@ -25,6 +25,16 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
 			<version>2.2.9.RELEASE</version>
+		</dependency>
+		<dependency>
+			<!-- For loading config from config server on spring boot bootstrap -->
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+		</dependency>
+		<dependency>
+			<!-- To Fetch common application config from remote repository like Git -->
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
