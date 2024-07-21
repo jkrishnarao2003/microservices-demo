@@ -10,10 +10,10 @@
   - http://localhost:8550
 
 - Department Service
-  - http://localhost:8551
+  - http://localhost:8551/department
 
 - Employee Service
-  - http://localhost:8552
+  - http://localhost:8552/employee
 
 - Hystrix Stream
   - http://localhost:8500/actuator/hystrix.stream
