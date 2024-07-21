@@ -1,5 +1,6 @@
 HELP.md
 target/
+.settings
 
 ### IntelliJ IDEA ###
 .idea/
