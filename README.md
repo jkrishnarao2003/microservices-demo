@@ -20,6 +20,7 @@
   - http://localhost:8552/employee (Don't open but use Postman Collection)
 
 - Cloud Config Server
+  - Modify application.yaml file and set "searchLocations" to correct "common-config" folder path as in your machine.
   - Run Java file com.example.config.server.ConfigServerApplication
   - http://localhost:8888/actuator/info
 
