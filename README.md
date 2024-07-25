@@ -9,32 +9,34 @@
 
 - API Gateway
   - Run Java file com.example.api.gateway.ApiGatewayApplication
-  - http://localhost:8550
+  - http://localhost:8550 (No need to open it)
 
 - Department Service
   - Run Java file com.example.department.DepartmentServiceApplication
-  - http://localhost:8551/department
+  - http://localhost:8551/info (Don't open but use Postman Collection)
 
 - Employee Service
   - Run Java file com.example.employee.EmployeeServiceApplication
-  - http://localhost:8552/employee
-
-- Hystrix Dashboard
-  - Run Java file com.example.hystrix.dashboard.HystrixDashboardApplication
-  - http://localhost:8999/hystrix (Enter http://localhost:8500/actuator/hystrix.stream in the text field )
+  - http://localhost:8552/employee (Don't open but use Postman Collection)
 
 - Cloud Config Server
   - Run Java file com.example.config.server.ConfigServerApplication
   - http://localhost:8888/actuator/info
 
   - Zipkin Server
-    - Go to microservices-demo\zipkin-server\ folder and run 
+    - CD to microservices-demo\zipkin-server\ folder in command line and run 
     > java -jar zipkin-server-2.23.4-exec.jar
     - OR
     - Download Zipkin Server jar file @ https://zipkin.io/pages/quickstart and run it as 
     > java -jar zipkin.jar
     - Then access the Zipkin Server @ http://localhost:9411/zipkin/
+
+- Hystrix Dashboard
+  - Run Java file com.example.hystrix.dashboard.HystrixDashboardApplication
+  - http://localhost:8999/hystrix (Enter http://localhost:8550/actuator/hystrix.stream in the text field )
+
+    
 - Postman Collection to access all APIs through Postman
-  - Download Postman Collection at https://www.postman.com/downloads/
+  - Download Latest Postman Collection at https://www.postman.com/downloads/
   - Import this collection /microservices-demo/docs/microservices-demo.postman_collection.json
   - Use the APIS above mentioned
