@@ -40,6 +40,8 @@ spring:
                 name: DEPARTMENT-SERVICE
                 fallbackuri: forward:/departmentServiceFallBack
 
+#Exposes actuator endpoints as mentioned @ https://docs.spring.io/spring-boot/docs/2.1.13.RELEASE/reference/html/production-ready-endpoints.html
+management.endpoints.web.exposure.include: "*"
 
 hystrix:
   command:
@@ -48,11 +50,4 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 100
-
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
 
